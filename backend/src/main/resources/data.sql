@@ -1,0 +1,15 @@
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(1, 'Alex Denner dos Santos Vicente', '393.603.865-10', 2432.45, TIMESTAMP WITH TIME ZONE '1986-05-12', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(2, 'António Enildo de Oliveira', '035.207.738-72', 2600.35, TIMESTAMP WITH TIME ZONE '1990-07-03', 2);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(3, 'César Prozere Fraga Pereira', '023.757.666-01', 1742.25, TIMESTAMP WITH TIME ZONE '1998-11-16', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(4, 'Claudia Cristina Dias dos Santos', '425.202.388-28', 4728.89, TIMESTAMP WITH TIME ZONE '1988-06-14', 3);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(5, 'Deyse Cristina Brito Fabricio', '560.180.361-77', 4728.30, TIMESTAMP WITH TIME ZONE '1991-09-01', 1);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(6, 'Gabriel Jose Bossolane Bortolani', '502.564.443-74', 2432.89, TIMESTAMP WITH TIME ZONE '1994-02-25', 1);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(7, 'Randerson Araujo de Lemos', '437.566.916-08', 788.24, TIMESTAMP WITH TIME ZONE '2004-08-07', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(8, 'Renan Pereira Camelo', '933.877.444-98', 1481.47, TIMESTAMP WITH TIME ZONE '2000-12-29', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(9, 'Vitor Hugo dos Santos da Silva Gordo', '443.876.862-43', 1622.58, TIMESTAMP WITH TIME ZONE '2001-09-19', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(10, 'Wanderli Daiane Dias', '826.572.735-64', 1265.64, TIMESTAMP WITH TIME ZONE '1993-10-17', 1);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(11, 'Willy Sallin de S. Melo', '376.488.236-08', 2717.23, TIMESTAMP WITH TIME ZONE '1989-03-18', 1);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(12, 'Wanderléia Daniela Dias', '237.226.346-36', 4728.36, TIMESTAMP WITH TIME ZONE '1992-05-12', 2);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(13, 'Ana Luisa Nobre Santos', '265.467.645-55', 1238.47, TIMESTAMP WITH TIME ZONE '1996-12-06', 1);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(14, 'Daniel Castro Leite Reis', '822.632.513-75', 3711.68, TIMESTAMP WITH TIME ZONE '1998-08-17', 0);
+INSERT INTO tb_client(id, name, cpf, income, birth_date, children) VALUES(15, 'Iago Martiniano Bonito', '829.367.973-57', 2231.89, TIMESTAMP WITH TIME ZONE '1987-01-30', 2);
