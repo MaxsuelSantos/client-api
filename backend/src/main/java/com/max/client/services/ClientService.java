@@ -2,6 +2,7 @@ package com.max.client.services;
 
 import com.max.client.dto.ClientDTO;
 import com.max.client.entities.Client;
+import com.max.client.exceptions.ResourceNotFoundException;
 import com.max.client.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -30,7 +31,7 @@ public class ClientService {
 
     @Transactional(readOnly = true)
     public ClientDTO findById(Long id) {
-        Client client = clientRepository.findById(id).orElseThrow(() -> new ArrayIndexOutOfBoundsException("Entity not found"));
+        Client client = clientRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Entity not found"));
         return new ClientDTO(client);
     }
 }
