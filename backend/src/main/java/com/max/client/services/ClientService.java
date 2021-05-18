@@ -10,6 +10,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Optional;
+
 @Service
 public class ClientService {
 
@@ -24,5 +26,11 @@ public class ClientService {
     public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
         Page<Client> clients = clientRepository.findAll(pageRequest);
         return clients.map(ClientDTO::new);
+    }
+
+    @Transactional(readOnly = true)
+    public ClientDTO findById(Long id) {
+        Client client = clientRepository.findById(id).orElseThrow(() -> new ArrayIndexOutOfBoundsException("Entity not found"));
+        return new ClientDTO(client);
     }
 }
