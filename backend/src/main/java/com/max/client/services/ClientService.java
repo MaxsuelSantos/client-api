@@ -23,10 +23,6 @@ public class ClientService {
     @Autowired
     private ClientRepository clientRepository;
 
-    public ClientService(ClientRepository clientRepository) {
-        this.clientRepository = clientRepository;
-    }
-
     @Transactional(readOnly = true)
     public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
         Page<Client> clients = clientRepository.findAll(pageRequest);
